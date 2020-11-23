@@ -1,11 +1,9 @@
 ---
 title: 'Rocket-Science: A mini-app for teaching Fortran code modernization'
 tags:
-  - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - Fortran
+  - rocket propulsion
+  - software archaeology
 authors:
   - name: Adrian M. Price-Whelan^[Custom footnotes for e.g. denoting who the corresponding author is can be included like this.]
     orcid: 0000-0003-0872-7098
