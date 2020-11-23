@@ -30,15 +30,18 @@ aas-journal: Astrophysical Journal <- The name of the AAS journal.
 
 # Summary
 
-The forces on stars, galaxies, and dark matter under external gravitational
-fields lead to the dynamical evolution of structures in the universe. The orbits
-of these bodies are therefore key to understanding the formation, history, and
-future state of galaxies. The field of "galactic dynamics," which aims to model
-the gravitating components of galaxies to study their structure and evolution,
-is now well-established, commonly taught, and frequently used in astronomy.
-Aside from toy problems and demonstrations, the majority of problems require
-efficient numerical tools, many of which require the same base code (e.g., for
-performing numerical orbit integration).
+This repository contains
+
+* A modern mini-application for simulating solid rocket motors using an
+  object-oriented, functional programming style in Fortran 2018.
+* A legacy motor simulator demonstrating the solution of the same governing
+  equations using a procedural programming style in Fortran 77/90.
+* A refurbished motor simulator demonstrating one modernization path for
+  making the legacy solver object-oriented but without the radical redesign
+  that affords the above purely functional programming style.
+
+The simulator includes a capability for launching gnuplot to compare results
+of the three solvers.
 
 # Statement of need
 
