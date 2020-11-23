@@ -1,5 +1,5 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'Rocket-Science: A mini-app for teaching Fortran code modernization'
 tags:
   - Python
   - astronomy
