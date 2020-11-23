@@ -45,3 +45,30 @@ jobs:
       run: |
         cd build
         ctest -V
+
+  Documentation:
+    runs-on: ubuntu-latest
+
+    env:
+      FC: gfortran
+      GCC_V: 9
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1
+
+    - name: Checkout submodules
+      run: |
+        git submodule init
+        git submodule update
+
+    - name: Install Dependencies
+      run: |
+        sudo apt install -y wget python-dev python build-essential
+        sudo update-alternatives --install /usr/bin/gfortran gfortran /usr/bin/gfortran-${GCC_V} 100
+        wget -P . "https://bootstrap.pypa.io/get-pip.py" && sudo python get-pip.py && rm get-pip.py
+        sudo pip install ford
+
+    - name: Build Documentation
+      run: |
+        ford documentation.md
