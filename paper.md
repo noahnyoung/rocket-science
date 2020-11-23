@@ -13,11 +13,11 @@ authors:
   - name: Brian Laubacher
     affiliation: 3
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University
+ - name: Better Scientific Software Fellow, Sustainable Horizons Institute
    index: 1
- - name: Institution Name
+ - name: Sourcery Institute
    index: 2
- - name: Independent Researcher
+ - name: Autoliv, Inc.
    index: 3
 date: 13 August 2017
 bibliography: paper.bib
