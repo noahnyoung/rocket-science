@@ -58,8 +58,9 @@ Rockets obey the second law of motion of Isaac Newton:
 
 # Figures
 
-Study rocket-science at Sourcery Institute:
-![Sourcery Institute logo.\label{fig:example}](graphics/sourcery-logo.png)
+Figures can be included like this:
+![Sourcery Institute logo.\label{fig:example}](sourcery-institute-logo.png)
+and referenced from text using \autoref{fig:example}.
 
 # Acknowledgements
 
